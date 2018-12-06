@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  color: #fff;
+}
+
+#container{
+  height: 500px;
+  width: 100%;
+  background:rgba(0,0,0,0.4);
+}
+
+#back{
+  background:url("desktop.jpg");
+  position:absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  
+}
+
+#wrapper{
+  padding-top:2em ;
+}
+button{
+  background: rgba(0,0,0,.6);
+  color: #fff;
+  height: 100px;
+  font-size: 2.5em;
+  border: .1em solid;
+  border-bottom-color:pink;
+  border-top-color: #192;
+  margin-top: .5em; 
+  font-family: comic sans MS;
+  padding: 0 .3em;
+}
+p{
+  font-size: 3em;
+}
+
+#part1{
+  width: 100%;
+  background: rgba(45,45,45);
+  height: 200px;
+  padding-top:100px;
+}
+#sky{
+  padding-top:.1em;
+  margin-top:.5em;
+  background:linear-gradient(rgba(51,153,51,0.2),rgba(255,0,204,0.3),rgba(51,153,51,0.2));
+}
